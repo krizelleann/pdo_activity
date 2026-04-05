@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS attendances (
     seat_number VARCHAR(10)
 );
 
--- Note the commas at the end of each line and the semicolon only at the very end
+
 INSERT INTO attendances (attendee_name, concert_date, ticket_type, price, seat_number)
 VALUES
 ('Jezrel mae', '2026-06-15', 'VIP', 150.00, 'A5'),
